@@ -1,0 +1,58 @@
+{
+  "name": "electron-ts-starter",
+  "version": "1.0.0",
+  "description": "Production Ready Electron-TypeScript Starter",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+    "clean": "rimraf dist/",
+    "copy-files": "ts-node scripts/copy-files.script.ts",
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "postbuild": "npm run copy-files",
+    "start": "npm run build && electron ./dist/main.js",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "electron",
+    "typescript",
+    "template",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "BCIT-DDC",
+  "license": "MIT",
+  "_moduleAliases": {
+    "@common/*": "dist/src/common/*"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.1",
+    "@types/shelljs": "^0.8.11",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-tsdoc": "^0.2.14",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^17.0.0",
+    "module-alias": "^2.2.2",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.5",
+    "ts-node": "^10.5.0",
+    "tsc-alias": "^1.5.0",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.5"
+  }
+}
