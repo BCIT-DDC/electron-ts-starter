@@ -72,8 +72,7 @@ Contributions are what make the open source community such an amazing place to l
 This project exists thanks to all the people who contribute.
 <br/>
 <a href="https://github.com/BCIT-DDC/electron-ts-starter/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=bcit-ddc/electron-ts-starter
-" height="40"/>
+<img src="https://contrib.rocks/image?repo=bcit-ddc/electron-ts-starter" height="40"/>
 </a>
 
 <!-- TESTING -->
