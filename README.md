@@ -29,23 +29,21 @@
 Clone this repository:
 
 ```
-git clone git@github.com:Runik-3/runik-app.git
+git clone git@github.com:BCIT-DDC/electron-ts-starter.git
 ```
 
 Install npm dependencies:
 
 ```
-cd runik-app
+cd electron-ts-starter
 npm install
 ```
 
-### 2. Start Development Server
+### 2. Start Desktop Application
 
 ```
-npm run dev
+npm run start
 ```
-
-The server is now running on http://localhost:8080.
 
 <!-- USAGE EXAMPLES -->
 
@@ -59,9 +57,7 @@ The server is now running on http://localhost:8080.
 
 <!-- -   [x] Add Changelog -->
 
--   [ ] Add support for kindle
-
-See the [open issues](https://github.com/Runik-3/runik-app/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/BCIT-DDC/electron-ts-starter/issues) for a full list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -75,8 +71,10 @@ Contributions are what make the open source community such an amazing place to l
 
 This project exists thanks to all the people who contribute.
 <br/>
-<a href="https://github.com/Runik-3/runik-app/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=runik-3/runik-app" height="40"/>
+<a href="https://github.com/BCIT-DDC/electron-ts-starter
+/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=bcit-ddc/electron-ts-starter
+" height="40"/>
 </a>
 
 <!-- TESTING -->

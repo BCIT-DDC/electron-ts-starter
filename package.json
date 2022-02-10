@@ -15,7 +15,7 @@
     "copy-files": "ts-node scripts/copy-files.script.ts",
     "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
     "postbuild": "npm run copy-files",
-    "start": "npm run build && electron ./dist/main.js",
+    "start": "npm run build && electron ./dist/src/main/index.js",
     "watch": "tsc -w"
   },
   "keywords": [
@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3",
-    "electron": "^17.0.0",
+    "electron": "16.0.8",
     "module-alias": "^2.2.2",
     "rimraf": "^3.0.2",
     "shelljs": "^0.8.5",
