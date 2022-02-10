@@ -7,11 +7,11 @@
     <img src="./assets/images/bcit-ddc-logo.svg" alt="Logo" width="40">
   </a>
 
-[![Electron Logo](./assets/images/electron.svg)](https://electronjs.org)
-
-<!-- ABOUT THE PROJECT -->
+  <!-- ABOUT THE PROJECT -->
 
 ## Electron-Typescript Starter
+
+[![Electron Logo](./assets/images/electron.svg)](https://electronjs.org)
 
 🚀 A production-ready starter for building cross-platform desktop applications with Electron and TypeScript.
 
