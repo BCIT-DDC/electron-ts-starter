@@ -1,5 +1,7 @@
 <div id="top"></div>
 
+[![Electron Logo](./assets/images/electron.svg)](https://electronjs.org)
+
 <!-- PROJECT LOGO -->
 <br />
 
@@ -12,8 +14,6 @@
 ## Electron-Typescript Starter
 
 🚀 A production-ready starter for building cross-platform desktop applications with Electron and TypeScript.
-
-[![Electron Logo](./assets/images/electron.svg)](https://electronjs.org)
 
 ### Built With
 
