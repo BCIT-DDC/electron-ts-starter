@@ -1,13 +1,13 @@
 <div id="top"></div>
 
-[![Electron Logo](./assets/images/electron.svg)](https://electronjs.org)
-
 <!-- PROJECT LOGO -->
 <br />
 
   <a align="left" href="https://github.com/BCIT-DDC">
     <img src="./assets/images/bcit-ddc-logo.svg" alt="Logo" width="40">
   </a>
+
+[![Electron Logo](./assets/images/electron.svg)](https://electronjs.org)
 
 <!-- ABOUT THE PROJECT -->
 
